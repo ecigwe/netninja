@@ -6,7 +6,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  background: url(/img/mario-bg.png) no repeat;
+  background: url("/img/mario-bg.png") no repeat;
   background-size: 100%;
   background-position: bottom;
   background-color: #95e8f3;
@@ -23,7 +23,7 @@ form button, form h5{
 input[type=text]:not(.browser-default):not:focus([readonly]),
 input[type=email]:not(.browser-default):not:focus([readonly]),
 input[type=password]:not(.browser-default):not:focus([readonly]),
-textarea.materialize-text-area:focus:not([readonly]){
+textarea .materialize-text-area:focus:not([readonly]){
   border-color: #ec407a;
   box-shadow:none;
 
