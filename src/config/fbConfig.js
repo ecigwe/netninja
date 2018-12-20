@@ -4,16 +4,16 @@ import 'firebase/auth'
 
 
 
-// Initialize Firebase
-var config = {
-    apiKey: "AIzaSyDu-SmTDId-2-GJYSShjwJk4MM10Ofc9lY",
-    authDomain: "net-ninja-mario-plan-27a20.firebaseapp.com",
-    databaseURL: "https://net-ninja-mario-plan-27a20.firebaseio.com",
-    projectId: "net-ninja-mario-plan-27a20",
-    storageBucket: "net-ninja-mario-plan-27a20.appspot.com",
-    messagingSenderId: "493025329307"
-  };
-  firebase.initializeApp(config);
+    // Initialize Firebase
+    var config = {
+    apiKey: "AIzaSyDlRX3o_4IiJkP0IdNOu_HuqwA48mQq5R4",
+    authDomain: "emmanuel-69749.firebaseapp.com",
+    databaseURL: "https://emmanuel-69749.firebaseio.com",
+    projectId: "emmanuel-69749",
+    storageBucket: "emmanuel-69749.appspot.com",
+    messagingSenderId: "627066400562"
+    };
+    firebase.initializeApp(config);
   firebase.firestore().settings({timestampsInSnapshots: true})
 
   export default firebase;
