@@ -1,4 +1,4 @@
-export const createProject = (project) =>{
+export  const createProject = (project) =>{
     return (dispatch, getState, { getFirebase, getFirestore }) => {
         //make assync call to database
         const firestore = getFirestore();

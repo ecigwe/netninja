@@ -2,6 +2,8 @@ import  React from 'react'
 import {Link} from 'react-router-dom'
 import SignedInLinks from './SignedInLinks'
 import SignedOutLinks from './SignedOutLinks'
+import { connect } from 'react-redux'
+import { getFirebase } from '../../../node_modules/react-redux-firebase';
 
 
 const Navbar = () => {
@@ -9,8 +11,8 @@ const Navbar = () => {
     <nav className="nav-wrapper grey darken-3">
      <div className="container">
        <Link to="/" className="brand-logo">Mario Plan</Link>
-       <SignedInLinks />
-       <SignedOutLinks />
+          <SignedInLinks />
+          <SignedOutLinks />
      
      
      </div>
@@ -20,4 +22,12 @@ const Navbar = () => {
   )
 }
 
-export default Navbar
+const mapStateToProps = (state) => {
+  console.log(state);
+  return {
+    
+
+  }
+}
+
+export default connect(mapStateToProps)(Navbar)
